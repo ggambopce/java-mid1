@@ -9,7 +9,8 @@ public class MainV1 {
      * 서버 연결, 데이터 전송, 연결 해제
      */
     public static void main(String[] args) {
-        NetworkServiceV1 networkService = new NetworkServiceV1();
+        //NetworkServiceV1 networkService = new NetworkServiceV1();
+        NetworkServiceV1_2 networkService = new NetworkServiceV1_2();
 
         Scanner sc = new Scanner(System.in);
         while (true) {

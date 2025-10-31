@@ -16,7 +16,7 @@ public class NetworkClientV1 {
 
     public String connect() {
         if (connectError){
-            System.out.println(address + "서버 연결 실패");
+            System.out.println(address + " 서버 연결 실패");
             return "connectError";
         }
         // 연결 성공
