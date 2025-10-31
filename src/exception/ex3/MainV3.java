@@ -1,9 +1,10 @@
 package exception.ex3;
 
-import exception.ex2.NetworkServiceV2_5;
-
 import java.util.Scanner;
 
+/**
+ * 체크 예외 실습
+ */
 public class MainV3 {
     public static void main(String[] args) {
         NetworkServiceV3_1 networkService = new NetworkServiceV3_1();
@@ -19,6 +20,5 @@ public class MainV3 {
             System.out.println();
         }
         System.out.println("프로그램을 정상 종료합니다.");
-    }
     }
 }
