@@ -9,6 +9,8 @@ public class Service {
 
     /**
      * 예외를 잡아서 처리하는 코드
+     * 잡은 예외가 catch의 대상에 없으면 잡을수 없고 밖으로 던져야 한다.
+     * 해당 타입과 그 하위타입을 모두 잡을 수 있다.
      */
     public void callCatch(){
         try{
