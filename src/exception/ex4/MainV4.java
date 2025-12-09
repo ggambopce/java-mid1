@@ -1,7 +1,5 @@
 package exception.ex4;
 
-import exception.ex3.NetworkServiceV3_1;
-
 import java.util.Scanner;
 
 public class MainV4 {
